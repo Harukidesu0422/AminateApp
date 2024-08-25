@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B53D1BCF2C7AD86200E58244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D1BCE2C7AD86200E58244 /* AppDelegate.swift */; };
+		B53D1BD12C7AD86200E58244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D1BD02C7AD86200E58244 /* SceneDelegate.swift */; };
+		B53D1BD32C7AD86200E58244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D1BD22C7AD86200E58244 /* ViewController.swift */; };
+		B53D1BD62C7AD86200E58244 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B53D1BD52C7AD86200E58244 /* Base */; };
+		B53D1BD82C7AD86300E58244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53D1BD72C7AD86300E58244 /* Assets.xcassets */; };
+		B53D1BDB2C7AD86300E58244 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B53D1BDA2C7AD86300E58244 /* Base */; };
+		B53D1BE62C7AD86400E58244 /* AminateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D1BE52C7AD86400E58244 /* AminateAppTests.swift */; };
+		B53D1BF02C7AD86400E58244 /* AminateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D1BEF2C7AD86400E58244 /* AminateAppUITests.swift */; };
+		B53D1BF22C7AD86400E58244 /* AminateAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D1BF12C7AD86400E58244 /* AminateAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B53D1BE22C7AD86400E58244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53D1BC32C7AD86200E58244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53D1BCA2C7AD86200E58244;
+			remoteInfo = AminateApp;
+		};
+		B53D1BEC2C7AD86400E58244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53D1BC32C7AD86200E58244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53D1BCA2C7AD86200E58244;
+			remoteInfo = AminateApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B53D1BCB2C7AD86200E58244 /* AminateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AminateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53D1BCE2C7AD86200E58244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B53D1BD02C7AD86200E58244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B53D1BD22C7AD86200E58244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B53D1BD52C7AD86200E58244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B53D1BD72C7AD86300E58244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B53D1BDA2C7AD86300E58244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B53D1BDC2C7AD86300E58244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53D1BE12C7AD86400E58244 /* AminateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AminateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53D1BE52C7AD86400E58244 /* AminateAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AminateAppTests.swift; sourceTree = "<group>"; };
+		B53D1BEB2C7AD86400E58244 /* AminateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AminateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53D1BEF2C7AD86400E58244 /* AminateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AminateAppUITests.swift; sourceTree = "<group>"; };
+		B53D1BF12C7AD86400E58244 /* AminateAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AminateAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53D1BC82C7AD86200E58244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D1BDE2C7AD86400E58244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D1BE82C7AD86400E58244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53D1BC22C7AD86200E58244 = {
+			isa = PBXGroup;
+			children = (
+				B53D1BCD2C7AD86200E58244 /* AminateApp */,
+				B53D1BE42C7AD86400E58244 /* AminateAppTests */,
+				B53D1BEE2C7AD86400E58244 /* AminateAppUITests */,
+				B53D1BCC2C7AD86200E58244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B53D1BCC2C7AD86200E58244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53D1BCB2C7AD86200E58244 /* AminateApp.app */,
+				B53D1BE12C7AD86400E58244 /* AminateAppTests.xctest */,
+				B53D1BEB2C7AD86400E58244 /* AminateAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53D1BCD2C7AD86200E58244 /* AminateApp */ = {
+			isa = PBXGroup;
+			children = (
+				B53D1BCE2C7AD86200E58244 /* AppDelegate.swift */,
+				B53D1BD02C7AD86200E58244 /* SceneDelegate.swift */,
+				B53D1BD22C7AD86200E58244 /* ViewController.swift */,
+				B53D1BD42C7AD86200E58244 /* Main.storyboard */,
+				B53D1BD72C7AD86300E58244 /* Assets.xcassets */,
+				B53D1BD92C7AD86300E58244 /* LaunchScreen.storyboard */,
+				B53D1BDC2C7AD86300E58244 /* Info.plist */,
+			);
+			path = AminateApp;
+			sourceTree = "<group>";
+		};
+		B53D1BE42C7AD86400E58244 /* AminateAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B53D1BE52C7AD86400E58244 /* AminateAppTests.swift */,
+			);
+			path = AminateAppTests;
+			sourceTree = "<group>";
+		};
+		B53D1BEE2C7AD86400E58244 /* AminateAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B53D1BEF2C7AD86400E58244 /* AminateAppUITests.swift */,
+				B53D1BF12C7AD86400E58244 /* AminateAppUITestsLaunchTests.swift */,
+			);
+			path = AminateAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B53D1BCA2C7AD86200E58244 /* AminateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53D1BF52C7AD86400E58244 /* Build configuration list for PBXNativeTarget "AminateApp" */;
+			buildPhases = (
+				B53D1BC72C7AD86200E58244 /* Sources */,
+				B53D1BC82C7AD86200E58244 /* Frameworks */,
+				B53D1BC92C7AD86200E58244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AminateApp;
+			productName = AminateApp;
+			productReference = B53D1BCB2C7AD86200E58244 /* AminateApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B53D1BE02C7AD86400E58244 /* AminateAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53D1BF82C7AD86400E58244 /* Build configuration list for PBXNativeTarget "AminateAppTests" */;
+			buildPhases = (
+				B53D1BDD2C7AD86400E58244 /* Sources */,
+				B53D1BDE2C7AD86400E58244 /* Frameworks */,
+				B53D1BDF2C7AD86400E58244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53D1BE32C7AD86400E58244 /* PBXTargetDependency */,
+			);
+			name = AminateAppTests;
+			productName = AminateAppTests;
+			productReference = B53D1BE12C7AD86400E58244 /* AminateAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B53D1BEA2C7AD86400E58244 /* AminateAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53D1BFB2C7AD86400E58244 /* Build configuration list for PBXNativeTarget "AminateAppUITests" */;
+			buildPhases = (
+				B53D1BE72C7AD86400E58244 /* Sources */,
+				B53D1BE82C7AD86400E58244 /* Frameworks */,
+				B53D1BE92C7AD86400E58244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53D1BED2C7AD86400E58244 /* PBXTargetDependency */,
+			);
+			name = AminateAppUITests;
+			productName = AminateAppUITests;
+			productReference = B53D1BEB2C7AD86400E58244 /* AminateAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53D1BC32C7AD86200E58244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B53D1BCA2C7AD86200E58244 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B53D1BE02C7AD86400E58244 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B53D1BCA2C7AD86200E58244;
+					};
+					B53D1BEA2C7AD86400E58244 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B53D1BCA2C7AD86200E58244;
+					};
+				};
+			};
+			buildConfigurationList = B53D1BC62C7AD86200E58244 /* Build configuration list for PBXProject "AminateApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B53D1BC22C7AD86200E58244;
+			productRefGroup = B53D1BCC2C7AD86200E58244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B53D1BCA2C7AD86200E58244 /* AminateApp */,
+				B53D1BE02C7AD86400E58244 /* AminateAppTests */,
+				B53D1BEA2C7AD86400E58244 /* AminateAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53D1BC92C7AD86200E58244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53D1BD82C7AD86300E58244 /* Assets.xcassets in Resources */,
+				B53D1BDB2C7AD86300E58244 /* Base in Resources */,
+				B53D1BD62C7AD86200E58244 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D1BDF2C7AD86400E58244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D1BE92C7AD86400E58244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53D1BC72C7AD86200E58244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53D1BD32C7AD86200E58244 /* ViewController.swift in Sources */,
+				B53D1BCF2C7AD86200E58244 /* AppDelegate.swift in Sources */,
+				B53D1BD12C7AD86200E58244 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D1BDD2C7AD86400E58244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53D1BE62C7AD86400E58244 /* AminateAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D1BE72C7AD86400E58244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53D1BF22C7AD86400E58244 /* AminateAppUITestsLaunchTests.swift in Sources */,
+				B53D1BF02C7AD86400E58244 /* AminateAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B53D1BE32C7AD86400E58244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53D1BCA2C7AD86200E58244 /* AminateApp */;
+			targetProxy = B53D1BE22C7AD86400E58244 /* PBXContainerItemProxy */;
+		};
+		B53D1BED2C7AD86400E58244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53D1BCA2C7AD86200E58244 /* AminateApp */;
+			targetProxy = B53D1BEC2C7AD86400E58244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B53D1BD42C7AD86200E58244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53D1BD52C7AD86200E58244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B53D1BD92C7AD86300E58244 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53D1BDA2C7AD86300E58244 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B53D1BF32C7AD86400E58244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B53D1BF42C7AD86400E58244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B53D1BF62C7AD86400E58244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AminateApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hetciu.AminateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B53D1BF72C7AD86400E58244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AminateApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hetciu.AminateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B53D1BF92C7AD86400E58244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hetciu.AminateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AminateApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AminateApp";
+			};
+			name = Debug;
+		};
+		B53D1BFA2C7AD86400E58244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hetciu.AminateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AminateApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AminateApp";
+			};
+			name = Release;
+		};
+		B53D1BFC2C7AD86400E58244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hetciu.AminateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AminateApp;
+			};
+			name = Debug;
+		};
+		B53D1BFD2C7AD86400E58244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hetciu.AminateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AminateApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53D1BC62C7AD86200E58244 /* Build configuration list for PBXProject "AminateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53D1BF32C7AD86400E58244 /* Debug */,
+				B53D1BF42C7AD86400E58244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53D1BF52C7AD86400E58244 /* Build configuration list for PBXNativeTarget "AminateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53D1BF62C7AD86400E58244 /* Debug */,
+				B53D1BF72C7AD86400E58244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53D1BF82C7AD86400E58244 /* Build configuration list for PBXNativeTarget "AminateAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53D1BF92C7AD86400E58244 /* Debug */,
+				B53D1BFA2C7AD86400E58244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53D1BFB2C7AD86400E58244 /* Build configuration list for PBXNativeTarget "AminateAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53D1BFC2C7AD86400E58244 /* Debug */,
+				B53D1BFD2C7AD86400E58244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B53D1BC32C7AD86200E58244 /* Project object */;
+}
